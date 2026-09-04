@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Data Analytics & Prediction</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>AI-Based Intelligent Data Analytics and Prediction System</h1>
+        <p>Analyze data, visualize patterns and generate AI-based predictions.</p>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h2>Intelligent Data Analytics Platform</h2>
+
+            <p>
+                Upload datasets, perform data analysis,
+                visualize information and generate
+                machine-learning predictions.
+            </p>
+
+            <button onclick="showMessage()">
+                Get Started
+            </button>
+        </section>
+
+        <section class="features">
+
+            <div class="card">
+                <h3>📂 Dataset Management</h3>
+                <p>Upload and manage datasets for analysis.</p>
+            </div>
+
+            <div class="card">
+                <h3>📊 Data Analytics</h3>
+                <p>Calculate statistics and discover data patterns.</p>
+            </div>
+
+            <div class="card">
+                <h3>📈 Visualization</h3>
+                <p>Create charts and graphical representations.</p>
+            </div>
+
+            <div class="card">
+                <h3>🤖 AI Prediction</h3>
+                <p>Use machine learning to generate predictions.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AI Data Analytics & Prediction System | BCA Project</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
